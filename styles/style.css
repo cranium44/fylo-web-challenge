@@ -21,6 +21,10 @@ a{
     color: white;
 }
 
+h3{
+    font-size: 1.7rem;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -44,7 +48,7 @@ a{
 }
 
 /* section one */
-.section-one{
+.section-one, .section-two{
     margin: 0 auto;
     margin-bottom: 3rem;
 }
@@ -81,6 +85,36 @@ a{
 /* first section complete */
 
 /* second section */
+.section-two{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-two__content{
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.section-two__content h3{
+    margin-top: 3rem;
+}
+
+.section-two__content__img{
+    height: 6rem;
+}
+
+.section-two__content__img img{
+    height: 100%;
+}
+
+.paragraph{
+    line-height: 1.8rem;
+    margin-top: 1.1rem;
+}
+
+/* end of section two */
 
 /* For desktop: */
 .col-1 {width: 8.33%;}
