@@ -16,10 +16,16 @@ body{
     font-size: 1.6rem;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .header{
@@ -29,13 +35,52 @@ body{
 .navlinks{
     display: flex;
     justify-content: space-between;
-
+    flex-wrap: wrap;
 }
 
 .navlinks a{
     text-decoration: none;
     color: white;
 }
+
+/* section one */
+.section-one{
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+
+.section-one__text{
+    padding: 5rem; 
+    text-align: center;
+}
+.section-one__text h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    line-height: 5.5rem;
+}
+
+.section-one__text p{
+    margin: 0 auto;
+    line-height: 3rem;
+}
+
+.n-line{
+    display: block;
+}
+
+.button{
+    margin-top: 3rem;
+}
+
+.btn{
+    padding: 1.3rem 7rem;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border-radius: 5rem;
+}
+/* first section complete */
+
+/* second section */
 
 /* For desktop: */
 .col-1 {width: 8.33%;}
