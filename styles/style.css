@@ -48,7 +48,7 @@ h3{
 }
 
 /* section one */
-.section-one, .section-two{
+.section-one, .section-two, .section-three{
     margin: 0 auto;
     margin-bottom: 3rem;
 }
@@ -115,6 +115,35 @@ h3{
 }
 
 /* end of section two */
+
+/* start section three */
+.section-three{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-three__text{
+    padding: 2rem;
+    /* margin-left: 0.2rem */
+}
+
+.section-three__text h2{
+    font-size: 2.2rem;
+    margin: 2rem 0rem;
+}
+
+.section-three__text p{
+    font-size: 1.3rem;
+}
+
+.section-three__text a{
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 1rem 0rem; 
+    border-bottom: 0.1rem solid hsl(176, 68%, 64%);
+    color: hsl(176, 68%, 64%);
+}
 
 /* For desktop: */
 .col-1 {width: 8.33%;}
