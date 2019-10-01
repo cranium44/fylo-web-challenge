@@ -11,9 +11,10 @@ html {
 }
 
 body {
-  background-color: hsl(218, 28%, 13%);
+  background-color: hsla(218, 29%, 13%);
   color: white;
   font-size: 1.6rem;
+  /* background-image: url("/images/bg-curvy-desktop.svg"); */
 }
 
 a {
@@ -51,7 +52,9 @@ h3 {
 .section-one,
 .section-two,
 .section-three,
-.section-four {
+.section-four,
+.section-five,
+.footer {
   margin: 0 auto;
   margin-bottom: 3rem;
 }
@@ -76,9 +79,13 @@ h3 {
   display: block;
 }
 
-.button {
-  margin-top: 3rem;
+.inline{
+  display: inline;
 }
+
+/* .button {
+  margin-top: 3rem;
+} */
 
 .btn {
   display: inline-block;
@@ -183,7 +190,7 @@ h3 {
 }
 
 .section-four__card {
-  flex: 3;
+  flex: auto;
   /* border: 1px solid white; */
   margin: .3rem 1.5rem;
   padding: 4rem 2rem;
@@ -213,11 +220,95 @@ h3 {
 }
 /* end of section four */
 
+/* start of section five */
+
+
+.section-five__content{
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem;
+    /* border: .1rem solid; */
+    background-color: hsl(217, 28%, 15%);
+    border-radius: .5rem;
+    position: relative;
+    top: 9rem
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.text{
+    padding: 1.4rem;
+    width: 65%;
+    height: auto;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    padding-left: 2.5rem;
+    margin-bottom: 1rem
+}
+
+
+.form .btn{
+  width: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* end of section five */
+
+/* footer section */
+.footer{
+  padding: 3rem;
+  margin: 0 auto;
+  background-color: hsl(216, 53%, 9%);
+}
+
+.footer__container{
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.footer__contents{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__content{
+  padding: 1rem
+}
+
+.footer__content img{
+  margin: 1rem;
+}
+
+.footer__content span{
+  margin: 1rem 0rem;
+}
+
+.footer__content__one{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contacts{
+  display: flex;
+  align-items: center
+}
+
+
 
 /* For desktop: */
 [class*="col-"] {
     width: 100%;
-  }
+}
 
 @media only screen and (min-width: 768px) {
   /* mobile view */
